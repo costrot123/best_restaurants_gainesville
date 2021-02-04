@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  background: #0021A5;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+}
+
+.container {
+  background: #FA4616;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  font-size: 1.2rem;
+}
+
+a {
+  color: #001056;
+}
+
+@media screen and (max-width: 540px) {
+.container {
+  margin: 0;
+}
+
+}
